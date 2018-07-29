@@ -17,5 +17,16 @@ Amazon Linux AMI 是一个 EBS 与 AWS 支持的映像。默认映像包括 AWS 
 * ssh   ec2-user@18.212.187.159
 * ssh   ec2-user@174.129.75.216
 
+* wget https://archive.apache.org/dist/zookeeper/zookeeper-3.4.10/zookeeper-3.4.10.tar.gz
+* tar -zxvf zookeeper-3.4.10.tar.gz
+* cp zoo_sample.cfg zoo.cfg
+
+* server.id=ip:port1:port2 
+* port1:数据通信的端口 port2:重新选举leader的窗口
+```
+server.1=34.239.118.33:2888:3888
+server.2=18.212.187.159:2888:3888
+server.3=174.129.75.216:2888:3888
+```
 
 
