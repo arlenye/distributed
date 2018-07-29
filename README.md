@@ -22,7 +22,8 @@ Amazon Linux AMI 是一个 EBS 与 AWS 支持的映像。默认映像包括 AWS 
 * cp zoo_sample.cfg zoo.cfg
 
 * server.id=ip:port1:port2 
-* port1:数据通信的端口 port2:重新选举leader的窗口
+* id:/tmp/zookeeper/mid  port1:数据通信的端口 port2:重新选举leader的窗口
+* 3台主机一样的配置
 ```
 server.1=34.239.118.33:2888:3888
 server.2=18.212.187.159:2888:3888
