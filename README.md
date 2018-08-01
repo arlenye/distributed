@@ -8,6 +8,11 @@ Amazon Linux AMI 是一个 EBS 与 AWS 支持的映像。默认映像包括 AWS 
 2. server2  公有 DNS (IPv4):  ec2-18-212-187-159.compute-1.amazonaws.com   IPv4 公有 IP: 18.212.187.159
 3. server3  公有 DNS (IPv4):  ec2-174-129-75-216.compute-1.amazonaws.com   IPv4 公有 IP: 174.129.75.216
 
+c1: 192.168.47.128
+c2: 192.168.47.129
+c3: 192.168.47.130
+
+
 
 * ssh -i 'C:\Users\Arlen\.ssh\homekeypari.pem'  ec2-user@34.239.118.33
 * ssh -i 'C:\Users\Arlen\.ssh\homekeypari.pem'  ec2-user@18.212.187.159
